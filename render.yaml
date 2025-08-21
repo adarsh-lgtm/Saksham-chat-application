@@ -4,4 +4,4 @@ services:
     env: node
     plan: free
     buildCommand: cd chat-app-backend && npm install
-    startCommand: cd chat-app-backend && node server.js
+    startCommand: cd chat-app-backend && npm start
